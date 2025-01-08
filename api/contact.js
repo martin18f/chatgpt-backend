@@ -1,8 +1,7 @@
-console.log(Configuration);
-require("dotenv").config();
 const nodemailer = require("nodemailer");
 const { Configuration, OpenAIApi } = require("openai");
-
+console.log(Configuration);
+require("dotenv").config();
 
 
 module.exports = async (req, res) => {
